@@ -1,0 +1,37 @@
+#+TITLE:     attic-mon
+#+SUBTITLE:  system monitoring tools for use with clojure
+#+AUTHOR:    Justin Bishop
+#+KEYWORDS:  monitoring, metrics, clojure
+#+LANGUAGE:  en
+
+monitoring wrappers for use in clojure
+
+* status
+
+this was one of the first projects I made in clojure. probably needs to be
+reviewed and rewritten. Refer to everything-conf for the configuration
+available.
+
+* examples
+
+#+BEGIN_SRC clojure
+  (require '[attic-mon.core :as mon :refer [get-data]])
+
+  (get-data mon/everything-conf)
+
+#+END_SRC
+
+* license
+copyright 2024 Justin Bishop
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
