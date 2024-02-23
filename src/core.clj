@@ -1,3 +1,5 @@
+;;; Copyright © 2024 Justin Bishop (concat mail @ dissoc.me)
+
 (ns attic-mon.core
   (:import [oshi.software.os OperatingSystem$ProcessSort]))
 
